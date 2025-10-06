@@ -1,0 +1,38 @@
+{
+  "name": "mern-auth-portal",
+  "version": "1.0.0",
+  "description": "A modern MERN stack authentication portal with beautiful UI/UX design",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd client && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build",
+    "start": "npm run dev"
+  },
+  "keywords": [
+    "mern",
+    "authentication",
+    "react",
+    "nodejs",
+    "mongodb",
+    "express",
+    "jwt",
+    "glassmorphism",
+    "modern-ui"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/mern-auth-portal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/mern-auth-portal/issues"
+  },
+  "homepage": "https://github.com/yourusername/mern-auth-portal#readme"
+}
